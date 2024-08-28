@@ -166,7 +166,6 @@ html {
 
 .recipe-list-item::marker {
     color: var(--rose-800);
-    font-weight: bold;
 }
 
 .recipe-list-item-text {
@@ -223,6 +222,7 @@ html {
 
 .nutrition-table-data {
     padding-right: var(--spacing-32);
+    padding-left: var(--spacing-14);
     color: var(--brown-800);
 }
 
@@ -265,9 +265,5 @@ html {
 
     .text-preset-1 {
         font-size: 3.6rem;
-    }
-
-    .nutrition-table-data {
-        padding-left: var(--spacing-16);
     }
 }
