@@ -118,6 +118,7 @@ html {
 
 .recipe-title {
     color: var(--stone-900);
+    font-weight: normal;
     margin-bottom: var(--spacing-24);
 }
 
@@ -147,8 +148,9 @@ html {
 
 .recipe-section-title {
     color: var(--brown-800);
+    font-weight: normal;
     margin-top: var(--spacing-32);
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--spacing-24);
 }
 
 .recipe-list {
@@ -263,10 +265,6 @@ html {
 
     .text-preset-1 {
         font-size: 3.6rem;
-    }
-
-    .recipe-section-title {
-        margin-bottom: var(--spacing-24);
     }
 
     .nutrition-table-data {
